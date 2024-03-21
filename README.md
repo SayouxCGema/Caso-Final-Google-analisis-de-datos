@@ -21,7 +21,7 @@ El CEO de la empresa, necesita analizar los datos de uso de dispositivos intelig
 
 Fuentes de datos
 
-La fuente de datos utilizada para el análisis, está publicada en la plataforma de https://www.kaggle.com/datasets/arashnic/fitbit/data.
+[La fuente de datos utilizada para el análisis, está publicada en la plataforma de](https://www.kaggle.com/datasets/arashnic/fitbit/data)
 
 Es una base de datos que incluye el registro de treinta usuarios elegibles de Fitbit, los cuales han dado su consentimiento para el envío de datos personales de seguimiento, incluidos los resultados a nivel de minuto de la actividad física, la frecuencia cardíaca y la monitorización del sueño.
 
