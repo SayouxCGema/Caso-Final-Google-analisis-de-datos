@@ -29,9 +29,22 @@ Es una base de datos que incluye el registro de treinta usuarios elegibles de Fi
 
 # Limpieza de los datos:
 - El proceso de limpieza y manipulación de datos, lo realizo en las bases de datos con las que vamos a trabajar.
-- Los datos nos dicen que contamos con un total de 940 filas y ningún valor nulo. La variable de fechas, está en un formato incorrecto y debemos modificarlo Algunos datos son mediciones en kilometros, mientras que otros son de minutos.
-- Voy a escoger las variables de minutos para el análisis. [Fuente- Fitabase Data Dictionary](https://www.fitabase.com/media/1930/fitabasedatadictionary102320.pdf)
+- Los datos nos dicen que contamos con un total de 940 filas y ningún valor nulo. La variable de fechas, está en un formato incorrecto y debemos modificarlo
+- Algunos datos son mediciones en kilometros, mientras que otros son de minutos. Voy a escoger las variables de minutos para el análisis. [Fuente- Fitabase Data Dictionary](https://www.fitabase.com/media/1930/fitabasedatadictionary102320.pdf)
+- Unificación de las tablas ya que estas estan por separado
 
 
+# Análisis:
+[Según la OMS](https://www.who.int/es/news-room/fact-sheets/detail/physical-activity) para que los adultos puedan estar con una adecuado estado de salud, deben realizar un mínimo de *30 minutos* de actividad física diaria. Estas se pueden distribuir en actividades físiscas más intensas durante al menos 150 a 300 minutos; o actividades físicas aeróbicas intensas durante al menos 75 a 150 minutos; o una combinación de ambas en la semana.
 
+- Nuestra base de clientes, está teniendo un 73,3%  de minutos sedentarios. Lo cual no es recomendable, para tener una buena condición física. Mientras que solo un 2,6% de estos minutos, se dedican a minutos de actividad física más deportiva.
+
+Se crea una variable para definir si los usuarios son personas de una intensa actividad física o no.
+- Variable: **VeriActiveMinute<30** usuarios no deportivos **VeriActiveMinute>30** usuarios deportivos
+Tenemos que un 68% de los usuarios no superan los 30 minutos de actividad física y solo un 32% de los usuarios si.
+
+[Según una investigación publicada en el European Journal of Preventive Cardiology](https://academic.oup.com/eurjpc/article/30/18/1975/7226309?login=false) ,que analizó la relación entre los pasos diarios dados por las personas y el riesgo de muerte. Los investigadores encontraron que caminar 4.000 pasos al día reducía el riesgo de muerte por cualquier causa. Considerando que 4.000 pasos vienen a ser el equivalente a los 22 minutos mínimos de actividad física recomendados, estos ya mostraban beneficios a nivel de mortalidad.
+
+- En base a ello, se crea una variable para definir el % de los usuarios que realizan menos de 4000 pasos diarios o no:
+- Tenemos un 83.2% de usuarios que si realizan esta cantidad de pasos al día, mientras que solo el 16.8% no lo consiguen.
 Nota: Solo se hace el análisis en las tablas que registran los minutos de sueño y los minutos de actividad diaria. El proceso de limpieza de datos, se aplicó en igual orden en ambas tablas.
