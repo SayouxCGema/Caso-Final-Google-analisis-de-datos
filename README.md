@@ -27,8 +27,9 @@ Es una base de datos que incluye el registro de treinta usuarios elegibles de Fi
 
 
 
-
-Proceso de limpieza y manipulación de datos
+# Limpieza de los datos:
+- El proceso de limpieza y manipulación de datos, lo realizo en las bases de datos con las que vamos a trabajar.
+- Se elimnan valores duplicados.
 
 Para limpiar y transformar los datos, selecciono la librería de Pandas en Python.
 
