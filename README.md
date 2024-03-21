@@ -47,4 +47,27 @@ Tenemos que un 68% de los usuarios no superan los 30 minutos de actividad físic
 
 - En base a ello, se crea una variable para definir el % de los usuarios que realizan menos de 4000 pasos diarios o no:
 - Tenemos un 83.2% de usuarios que si realizan esta cantidad de pasos al día, mientras que solo el 16.8% no lo consiguen.
+
+[Según ha publicado el The National Heart, Lung, and Blood Institute (NHLBI)(https://www.nhlbi.nih.gov/files/docs/public/sleep/In_Brief_YG_to_Sleep_Spanish_Final.pdf), en la edad adulta las horas de sueño deben de estar entre 7-8 horas. Escatimar sueño tiene su precio. Reducir tan solo 1 hora de sueño puede hacer que sea difícil concentrarse al día siguiente y que su tiempo de respuesta sea más lento. También afecta al estado anímico. Además de que tiene un gran impacto en nuestro estado de salud.
+
+En base a ello, se crea una variable para agrupar a los usuarios que tienen al menos 7 horas de sueño y los que no.
+- Se ha detectado que el día que mejor registro de calidad de las horas de sueño en la semana, suele ser los miércoles. Mientras que los martes, se muestra el día con menor cantidad de horas de sueño.
+- Un 66.6% de los usuarios si que duermen diariamente las 7 horas mínimas para un correcto descanso, mientras que 33.7% no lo hace.
+
+
+# Conclusiones y recomendaciones:
+- El usuario parece que tiene mayor calidad de sueños el miércoles.
+- Un 66% de las veces, está una buena calidad de sueño con un mínimo de 7 horas.
+- Hasta ahora, se observa que los usuarios si que pueden tener una media de pasos diarios adecuadas, aunque no por ello se pueden definir como usuarios con una intensa actividad física.
+- Los minutos registran que mayoritariamente los usuarios tienen más tendencia a minutos sedentarios, un 73.3%.
+
+# Estrategias equipo de marketing:
+-Para la estrategia de marketing que desea realizar el equipo de Bellabeat, se puede recomendar que el equipo se enfoque en la importancia de conseguir realizar los 30 minutos de actividad física. 
+- Por ejemplo realizando un embudo, para clasificar aquellos usuarios que necesitan mejorar su actividad física y calidad de sueño.
+- Se pueden enviar newsletter, informando sobre los benficios de la actividad física y como los productos de Blellabeat, podrían ayudarles a realizar el seguimiento de las mejoras.
+Se pueden enviar alertas al final de cada día, donde se haga un resumen de la actividad diaria y que les muestre un resumen de (calorías, km realizados, minutos de actividad).
+
+
+
+
 Nota: Solo se hace el análisis en las tablas que registran los minutos de sueño y los minutos de actividad diaria. El proceso de limpieza de datos, se aplicó en igual orden en ambas tablas.
