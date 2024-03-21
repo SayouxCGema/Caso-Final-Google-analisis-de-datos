@@ -29,9 +29,9 @@ Es una base de datos que incluye el registro de treinta usuarios elegibles de Fi
 
 # Limpieza de los datos:
 - El proceso de limpieza y manipulación de datos, lo realizo en las bases de datos con las que vamos a trabajar.
-- Se elimnan valores duplicados.
-- Los datos nos dicen que contamos con un total de 940 filas y ningún valor nulo. La variable de fechas, está en un formato incorrecto y debemos modificarlo Algunos datos son mediciones en kilometros, mientras que otros son de minutos. Voy a escoger las variables de minutos para el análisis. Fuente- Fitabase Data Dictionary: https://www.fitabase.com/media/1930/fitabasedatadictionary102320.pdf
+- Los datos nos dicen que contamos con un total de 940 filas y ningún valor nulo. La variable de fechas, está en un formato incorrecto y debemos modificarlo Algunos datos son mediciones en kilometros, mientras que otros son de minutos.
+- Voy a escoger las variables de minutos para el análisis. [Fuente- Fitabase Data Dictionary](https://www.fitabase.com/media/1930/fitabasedatadictionary102320.pdf)
 
-Para limpiar y transformar los datos, selecciono la librería de Pandas en Python.
+
 
 Nota: Solo se hace el análisis en las tablas que registran los minutos de sueño y los minutos de actividad diaria. El proceso de limpieza de datos, se aplicó en igual orden en ambas tablas.
