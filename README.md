@@ -62,10 +62,10 @@ En base a ello, se crea una variable para agrupar a los usuarios que tienen al m
 - Los minutos registran que mayoritariamente los usuarios tienen más tendencia a minutos sedentarios, un 73.3%.
 
 # Estrategias equipo de marketing:
--Para la estrategia de marketing que desea realizar el equipo de Bellabeat, se puede recomendar que el equipo se enfoque en la importancia de conseguir realizar los 30 minutos de actividad física. 
-- Por ejemplo realizando un embudo, para clasificar aquellos usuarios que necesitan mejorar su actividad física y calidad de sueño.
+-Para la estrategia de marketing que desea realizar el equipo de Bellabeat, se puede recomendar enfocarse en la importancia de conseguir realizar los 30 minutos de actividad física diaria. 
+- Por ejemplo pueden crear un anuncio realizando un embudo, enfocado en atraer a los usuarios que necesitan mejorar su actividad física y calidad de sueño. Para ello, necesitan crear un prototipo de clientes con mayor cantidad de datos (demográficos, educación, etc)
 - Se pueden enviar newsletter, informando sobre los benficios de la actividad física y como los productos de Blellabeat, podrían ayudarles a realizar el seguimiento de las mejoras.
-Se pueden enviar alertas al final de cada día, donde se haga un resumen de la actividad diaria y que les muestre un resumen de (calorías, km realizados, minutos de actividad).
+- Se pueden enviar alertas al final de cada día, donde se haga un resumen de la actividad diaria y que les muestre un resumen de (calorías, km realizados, minutos de actividad).
 
 
 
